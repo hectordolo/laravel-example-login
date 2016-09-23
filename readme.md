@@ -6,6 +6,9 @@ This is a basic setup of Laravel 5.3 using the "username" to log into a laravel 
 
 ### Controllers
 
+* [Login Controller]
+* [Register Controller]
+
 ### Views
 
 
