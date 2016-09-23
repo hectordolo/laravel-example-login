@@ -238,3 +238,15 @@ To add a username field into the form.
 It will then look like this:
 
 <img src="https://hectordolo.github.io/img/Register.png" alt="Register Page">
+
+---
+
+Run: 
+
+```
+composer install
+```
+
+After cloning this repository :)
+
+
