@@ -51,6 +51,42 @@ php artisan migrate
 
 To create a table for our user.
 
+---
+
+Now we edit this block of code in the User.php located at:
+
+```
+app>User.php
+```
+
+```php
+/**
+ * The attributes that are mass assignable.
+ *
+ * @var array
+ */
+protected $fillable = [
+    'name', 'email', 'password',
+];
+```
+
+To look like this:
+
+```php
+/**
+ * The attributes that are mass assignable.
+ *
+ * @var array
+ */
+protected $fillable = [
+    'name', 'username', 'email', 'password',
+];
+```
+
+This is to include the username to be saved into the database.
+
+---
+
 ### Controllers
 
 * [Login Controller] (#login-controller)
