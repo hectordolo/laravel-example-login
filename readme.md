@@ -53,7 +53,7 @@ To create a table for our user.
 
 ---
 
-Now we edit this block of code in the User.php located at:
+Now we will add "username" in the User.php located at:
 
 ```
 app>User.php
